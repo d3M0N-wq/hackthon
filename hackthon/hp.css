@@ -1,0 +1,159 @@
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid  #00e6e6;
+}
+li {
+  float: left;
+}
+#r{
+  float: right;
+  background-color:#006600;
+
+}
+#rs{
+  float: right;
+  background-color: #4CAF50;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.box1{
+  font-size: 40px;
+ display: inline-block;
+ color: white;
+ padding-left:12%;
+ padding-top: 20px;
+ background-color: #333;
+}
+ .box{
+  display: inline-block;
+  width: 45%;
+  color: white;
+  padding-left:8%;
+  padding-top: 20px;
+  background-color: #333;
+}
+.li2{
+  width: 45%;
+  padding-left:10%;
+  font-size: 20px;
+  list-style-type: square;
+}
+#p1{
+
+ width: 45%;
+ padding-left:8%;
+ font-size: 40px;
+}
+#p2{
+
+  width: 45%;
+  padding-left:8%;
+  font-size: 20px;
+
+}
+#p11{
+ float: right;
+ width: 45%;
+ padding-right:8%;
+ font-size: 40px;
+}
+#p22{
+
+  width: 45%;
+  float: right;
+  padding-right:8%;
+  font-size: 20px;
+
+}
+.jum{
+  background-color:#333;
+  padding-bottom: 90px;
+  overflow: auto;
+}
+.img {
+  border: 3px solid #4CAF50;
+  padding: 5px;
+  overflow: auto;
+}
+
+.img1 {
+  float: right;
+  padding-top:2%
+}
+.img2{
+  float: left;
+}
+#r1{
+  float: center;
+  color: Black;
+}
+@media screen and (max-width: 600px) {
+input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  float: center;
+  width: 10 %;
+}
+input[type=text]{
+  width: 30%;
+  padding: 10px;
+  float: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left:8%;
+  resize: vertical;
+}
+.jam2{
+  padding:20px;
+  padding-top: 10%;
+  color: white;
+  overflow: auto
+}
+.submit2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  float: left;
+  width: 20%;
+  text-align: center;
+  margin-left: 8%;
+}
+.logo{
+  margin: 0px;
+  float: top;
+  padding: none;
+
+}
+body{
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
+}
