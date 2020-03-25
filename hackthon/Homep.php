@@ -61,22 +61,6 @@
 if ($ou=='y')
  {
 
-  echo '<form class="c" action="Homep.php" method="get">
-	 <label for="input">Input Board Number:</label>
-		<input type="number" name="bn"><br>
-		<label for="input">Input Due Date:</label>
-		 <input type="date" name="dd"><br>
-		 <label for="input">Input Task:</label>
- 		 <input type="text" name="t"><br>
-		 <label for="input">Input Status of work:</label>
- 		 <input type="text" name="s"><br>
-		 <label for="input">Input Friends username if want to give access:</label>
- 		 <input type="text" name="fa"><br>
-		 <label for="input">Input Line no:</label>
- 		 <input type="text" name="l"><br>
-		 <input type="submit">
-		 </form>';
-
      $b_no=$_GET["bn"];
 		 $due=$_GET["dd"];
 		 $wk=$_GET["t"];
@@ -126,3 +110,20 @@ else {
 	</div>
 </body>
 </html>
+if ($ou=='y')
+ {
+      echo '<form class="c" action="Homep.php" method="get">
+	 <label for="input">Input Board Number:</label>
+		<input type="number" name="bn"><br>
+		<label for="input">Input Due Date:</label>
+		 <input type="Date" name="dd"><br>
+		 <label for="input">Input Task:</label>
+ 		 <input type="text" name="t"><br>
+		 <label for="input">Input Status of work:</label>
+ 		 <input type="text" name="s"><br>
+		 <label for="input">Input Friends username if want to give access:</label>
+ 		 <input type="text" name="fa"><br>
+		 <label for="input">Input Line no:</label>
+ 		 <input type="number" name="l"><br>
+		 <input type="submit">
+		 </form>';
